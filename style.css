@@ -1,0 +1,119 @@
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: auto 250px;
+    text-align: center;
+}
+
+.player1{
+    display: grid;
+    font-size: 3em;
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+
+.player2{
+    display: grid;
+    font-size: 3em;
+    position: absolute;
+    top: 120px;
+    right: 130px;
+}
+
+.startBtn, .resetBtn {
+    padding: 20px;
+    margin: 50px auto;
+}
+.startBtn{
+    font-weight: bold;
+    font-size: 3em;
+    color: red;
+    background-color: aqua;
+    padding: 40px 60px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.startBtn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.25s ease;
+    scale: 1.1;
+}
+
+.resetBtn{
+    font-weight: bold;
+    font-size: 1em;
+    color: red;
+    background-color: aqua;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.resetBtn:hover{
+    background-color: red;
+    color: black;
+    transition: 0.25s ease;
+    scale: 1.1;
+}
+
+.addBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player1Btn{
+    font-weight: bold;
+    margin-left: 150px;
+    font-size: 1em;
+    color: red;
+    background-color: aqua;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+.player2Btn{
+    font-weight: bold;
+    font-size: 1em;
+    color: red;
+    background-color: aqua;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+    margin-right: 150px;
+}
+
+.resultContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label1Player1, .label2Player1, .label3Player1{
+    margin-left: 180px;
+}
+.label1Player2, .label2Player2, .label3Player2{
+    margin-right: 180px;
+}
+
+.resultContainer label{
+    font-size: 3em;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 2em;
+}
+.score1, .score2{
+    color: red;
+}
